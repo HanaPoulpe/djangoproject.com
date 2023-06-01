@@ -2380,7 +2380,8 @@ dt {
 
 #doc-versions,
 #doc-languages,
-#faq-link {
+#faq-link,
+#backtotop-link {
     margin: 0;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
@@ -2431,6 +2432,11 @@ dt {
                 border: 1px solid $green-light;
             }
         }
+
+		a.icon-chevron-up-align {
+			// Should be removed when icon-chevron-up image have the same black space on both sides.
+			padding-right: 11px;
+		}
     }
 
     &:hover {
